@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+
+  play_backend_mongo:
+    image: mongo
+    container_name: play_backend_mongo
+    environment:
+      MONGO_INITDB_DATABASE: play_backend_mongo
+      MONGO_INITDB_ROOT_USERNAME: play_backend_user
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+    volumes:
+    - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    ports:
+    - 27017:27017
+  play_backend_postgres:
+    image: postgres:latest
+    container_name: play_backend_db
+    environment:
+      POSTGRES_DB: play_backend_db
+      POSTGRES_USER: play_backend_user
+      POSTGRES_PASSWORD: 123456
+    ports:
+    - 5432:5432

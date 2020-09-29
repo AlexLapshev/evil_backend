@@ -1,0 +1,108 @@
+[{
+  "_id": 1,
+  "artists": [
+    {
+      "artist_id": 10,
+      "artist_name": "Ария",
+      "artist_cover": "aria.jpg",
+      "releases": [
+        8
+      ]
+    },
+    {
+      "artist_id": 4,
+      "artist_name": "Every Time I Die",
+      "artist_cover": "etid.jpg",
+      "releases": [
+        4,
+        9,
+        10
+      ]
+    },
+    {
+      "artist_id": 5,
+      "artist_name": "Baptists",
+      "artist_cover": "baptists.jpg",
+      "releases": [
+        7
+      ]
+    },
+    {
+      "artist_id": 8,
+      "artist_name": "Duke Nukem",
+      "artist_cover": "dukenukem.jpg",
+      "releases": [
+        12
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "release_id": 2,
+      "artist_id": 2,
+      "release_name": "Крысы",
+      "release_cover": "karzer.jpg",
+      "release_year": "2017-03-12",
+      "tracks": [
+        7,
+        8
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "track_id": 30,
+      "artist_id": 5,
+      "release_id": 7,
+      "track_name": "Capsule"
+    },
+    {
+      "track_id": 15,
+      "artist_id": 4,
+      "release_id": 4,
+      "track_name": "I Didnt Want to Join Your Stupid Cult Anyway"
+    },
+    {
+      "track_id": 10,
+      "artist_id": 4,
+      "release_id": 4,
+      "track_name": "Fear and Trembling (feat. Tim Singer of Deadguy)"
+    },
+    {
+      "track_id": 12,
+      "artist_id": 4,
+      "release_id": 4,
+      "track_name": "C++ (Love Will Get You Killed)"
+    },
+    {
+      "track_id": 16,
+      "artist_id": 4,
+      "release_id": 4,
+      "track_name": "It Remembers"
+    },
+    {
+      "track_id": 27,
+      "artist_id": 5,
+      "release_id": 7,
+      "track_name": "Absolved of Life / Spent Cells"
+    },
+    {
+      "track_id": 28,
+      "artist_id": 5,
+      "release_id": 7,
+      "track_name": "Beacon of Faith"
+    }
+  ],
+  "playlists": [
+    {
+      "playlist_id": 3,
+      "playlist_name": "crust",
+      "playlist_cover": "string",
+      "tracks": [
+        1,
+        10
+      ],
+      "playlist_public": false
+    }
+  ]
+}]
